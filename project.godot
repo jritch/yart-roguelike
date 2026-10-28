@@ -11,8 +11,20 @@ config_version=5
 [application]
 
 config/name="yart-roguelike"
+run/main_scene="uid://c2j7o4g2y6yyq"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=400
+window/size/viewport_height=300
+window/stretch/scale=2.0
+window/stretch/scale_mode="integer"
+
+[editor]
+
+movie_writer/movie_file="/home/j/yart-roguelike/capture.avi"
 
 [physics]
 
@@ -22,3 +34,4 @@ config/icon="res://icon.svg"
 
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"
+environment/defaults/default_clear_color=Color(0.2784314, 0.1764706, 0.23529412, 1)
